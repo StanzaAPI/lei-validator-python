@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stanzaapi-lei-validator"
+version = "1.0.0"
+description = "Official zero-dependency, high-speed Python client for Global LEI & Corporate Tax ID Validator API"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["lei","iso-17442","gleif","corporate-tax-id","ein-validator","abn","crn","kyc-compliance","tax-id"]
+authors = [
+  { name = "Stanza" },
+]
+
+[project.urls]
+Homepage = "https://stanzaapi.com/tools/lei-validator"
+Repository = "https://github.com/stanzaapi/lei-validator-python"
